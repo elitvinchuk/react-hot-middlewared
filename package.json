@@ -1,0 +1,35 @@
+{
+  "name": "react-hot-middlewared",
+  "version": "1.0.0",
+  "description": "MVP for react hot reloading with express middleware",
+  "scripts": {
+    "build": "webpack",
+    "server": "node server"
+  },
+  "keywords": [
+    "react",
+    "webpack-hot-middleware"
+  ],
+  "author": "Egor Litvinchuk",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.7.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "^3.6.0",
+    "webpack-dev-server": "^3.2.0",
+    "webpack-hot-middleware": "^2.24.3"
+  }
+}
